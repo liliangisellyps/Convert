@@ -2,9 +2,7 @@
 
 {% set pageId = "page-home" %}
 
-{% block styles %}
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    
+{% block styles %}    
     <link rel="stylesheet" href="styles/modal.css">
     <link rel="stylesheet" href="styles\index.css">
 {% endblock styles %}
@@ -16,27 +14,21 @@
             <h1> Converta números facilmente. </h1>
         </header>
         <main>
-            <div class="convert">
-                <input 
-                type="number"
-                name="converter"
-                placeholder="Digite um número"
-                >
-                <a href="#" >
-                    <button id="convert_button">
-
-                    <img src="/assets/right-arrow.svg" alt="Converter">
-                    </button>
-                </a>
-
-                <a href="#" >
-                    <button id="delete_button">
-                        
-                    <img src="/assets/delete.svg" alt="Apagar">
-                    </button>
-                </a>
-            </div>
-            
+            <form action="/results">
+                <div class="convert">
+                    <input 
+                    type="number"
+                    name="number"
+                    placeholder="Digite um número"
+                    >
+                    <a href="#" id="convert_button">
+                        <img src="/assets/right-arrow.svg" alt="Converter">
+                    </a>
+                    <a href="#" id="delete_button">     
+                        <img src="/assets/delete.svg" alt="Apagar">
+                    </a>
+                </div>
+            </form>
         </main>
     </div>
 {% endblock content %}

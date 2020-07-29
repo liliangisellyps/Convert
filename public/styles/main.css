@@ -1,5 +1,6 @@
 :root {
-    --title-color: #f5deb3;
+    --title-color: #85bfeb;
+    --extitle: #f5deb3;
     --blue-color: #85bfeb;
     --primary-color: #A52A2A;
     --rosa-bonito: #e2725b;
@@ -26,4 +27,5 @@ a {
 
 h1{
     color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
 }
