@@ -1,0 +1,48 @@
+#page-home {
+    background: var(--background-color);
+    height: 100vh;
+    background-position: 35vw bottom;
+    background-size: 700px;
+}
+
+#page-home .content header {
+    padding: 48px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page-home .content header h1 {
+    padding: 5px;
+}
+#page-home main .convert {
+    display: flex;
+    padding: 0 12%;
+}
+
+#page-home main .convert input {
+    flex: 1;
+
+    background-color: #eceafc;
+
+    border: 0;
+    border-radius: 8px 0 0 8px;
+
+    padding: 16px 24px;
+
+    font-size: 16px;
+    color: #000000;
+}
+#page-home main .convert button {
+    width: 72px;
+    height: 72px;
+
+    border: 0;
+
+    background-color: #f0f091;
+}
+
+#page-home main .convert #delete_button {
+    border: 0;
+    border-radius: 0 8px 8px 0;
+}

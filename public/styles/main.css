@@ -1,0 +1,29 @@
+:root {
+    --title-color: #f5deb3;
+    --blue-color: #85bfeb;
+    --primary-color: #A52A2A;
+    --rosa-bonito: #e2725b;
+    --amarelo-bonito: #ffff80;
+    --background-color: #F5F5F5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/* display posicionamento
+    alinhamento
+ */
+body {
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+
+h1{
+    color: var(--title-color);
+}
